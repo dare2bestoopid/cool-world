@@ -1,0 +1,24 @@
+minTime: 400
+maxTime: 600
+timeoutTime: 30
+format: '&eChat&6Games &9▸ &f%msg%'
+globalWinMsg: '%player% Won!'
+playerWinMsg: You won!
+enablePlayerWinMsg: false
+noOneWinMsg: 'No one won! The answer was: %answer%'
+unscrambleMsg: 'Unscrmable the word: &c%word%'
+mathMsg: 'What is: %math%'
+typesEnabled:
+  normal: true
+  math: true
+  unscramble: true
+winnerCommands:
+- say %player% won math/unscramble
+questions:
+  examle:
+    ask: What is 1+1?
+    answers:
+    - two
+    - '2'
+    rewardCommands:
+    - say %player% won

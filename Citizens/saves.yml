@@ -1,0 +1,99 @@
+# Citizens NPC Storage
+
+
+last-created-npc-id: 8
+npc:
+  '3':
+    name: chair
+    uuid: a3c5035c-ea31-408e-a926-c727738a0af0
+    traits:
+      location:
+        world: world_nether
+        x: '8.0'
+        y: '8.0'
+        z: '8.0'
+        yaw: '0.0'
+        pitch: '0.0'
+      type: CHICKEN
+      controllable:
+        enabled: true
+        owner_required: false
+      spawned: true
+      age:
+        age: 0
+        locked: true
+      owner:
+        owner: Dare2BeStoopid
+        uuid: 51fcb2d6-2145-3f08-9a14-9013b24758b0
+    traitnames: age,owner,mounttrait,controllable,location,spawned,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '8':
+    name: fuckis
+    uuid: 1a4535e5-3057-4209-965d-80169929d4b6
+    traits:
+      spawned: true
+      followtrait:
+        active: true
+        followingUUID: 51fcb2d6-2145-3f08-9a14-9013b24758b0
+        protect: false
+      type: PLAYER
+      controllable:
+        enabled: false
+        owner_required: false
+      location:
+        world: world
+        x: '-0.2066'
+        y: '30.0'
+        z: '-0.2066'
+        yaw: '3.6825'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: diamond_sword
+          amount: 1
+          durability: 12
+          mdata: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: diamond_sword
+          amount: 1
+          durability: 12
+          mdata: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+      owner:
+        owner: Dare2BeStoopid
+        uuid: 51fcb2d6-2145-3f08-9a14-9013b24758b0
+    traitnames: owner,mounttrait,gravity,equipment,lookclose,anchors,controllable,spawned,type,scoreboardtrait,inventory,location,followtrait
+    navigator:
+      speedmodifier: '1.2999999523162842'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      flyable: true
+      protected-target: true
+      collidable: true
+      protected: false
